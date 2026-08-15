@@ -1,0 +1,89 @@
+P0 E-COMMERCE - TEST CASES
+
+TC01 - Register with valid user details
+Expected: User should be registered successfully.
+Status: PASS
+
+TC02 - Register with an existing email
+Expected: Registration should not be allowed.
+Status: PASS
+
+TC03 - Login with valid email and password
+Expected: User should login successfully.
+Status: PASS
+
+TC04 - Login with incorrect password
+Expected: Login should fail.
+Status: PASS
+
+TC05 - Login with unregistered email
+Expected: Login should fail.
+Status: PASS
+
+TC06 - View products
+Expected: Available products should be displayed.
+Status: PASS
+
+TC07 - Add a new product with valid details
+Expected: Product should be added successfully.
+Status: PASS
+
+TC08 - Add product with invalid price
+Expected: Invalid input should not be accepted.
+Status: PASS
+
+TC09 - Update an existing product
+Expected: Product details should be updated.
+Status: PASS
+
+TC10 - Update a non-existing product
+Expected: Product should not be updated.
+Status: PASS
+
+TC11 - Delete an existing product
+Expected: Product should be deleted successfully.
+Status: PASS
+
+TC12 - Delete a non-existing product
+Expected: Product should not be deleted.
+Status: PASS
+
+TC13 - Add valid product to cart
+Expected: Product should be added to the cart.
+Status: PASS
+
+TC14 - Add non-existing product to cart
+Expected: Error should be displayed.
+Status: PASS
+
+TC15 - View cart with items
+Expected: Cart items, quantity and total should be displayed.
+Status: PASS
+
+TC16 - View empty cart
+Expected: "Cart is empty" should be displayed.
+Status: PASS
+
+TC17 - Place order with items in cart
+Expected: Order should be created successfully.
+Status: PASS
+
+TC18 - Place order with empty cart
+Expected: Order should not be created.
+Status: PASS
+
+TC19 - Check order history
+Expected: Previous orders should be displayed.
+Status: PASS
+
+TC20 - Verify cart after placing an order
+Expected: Cart should be cleared after successful order.
+Status: PASS
+
+TC21 - Check product quantity
+Expected: Product quantity should be displayed correctly.
+Status: PASS
+
+TC22 - Exit application
+Expected: Application should close successfully.
+Status: PASS
